@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --primary-color: #FEF3C7;
+  --secondary-color: #6B7280;
+  --off-white: #FFFBEB;
+}
+
+body {
+  background-color: #FCD34D;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  margin: 0rem 2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  font-size: 40px;
+  border: 1px solid black;
+  border-top: none;
+  /* color: var(--off-white); */
+}
+
+textarea {
+  width: 70%;
+  height: 20vh;
+  padding: 2rem;
+  display: block;
+  border-radius: 2rem;
+  margin: 2rem auto;
+  background-color: var(--off-white);
+  border: 1px solid black;
+}
+
+button {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  margin-top: 0rem;
+  display: block;
+  /* color: white; */
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.output-feild {
+  padding: 2rem;
+  width: 70%;
+  border-radius: 2rem;
+  height: 20vh;
+  border: solid 1px var(--primary-color);
+  margin: 2rem auto;
+  margin-top: 0rem;
+  display: block;
+  border: 1px solid black;
+  background-color: var(--off-white);
+}
+
+
+.footer {
+  display: block;
+  margin: 2rem;
+  margin-bottom: 0rem;
+  /* margin-bottom: 0rem; */
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  /* max-width: 70rem; */
+  /* color: var(--off-white); */
+  border: 1px solid black;
+  border-bottom: none;
+  text-align: center;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .list-non-bullets {
+  list-style-type: none;
+
+}
+
+.footer .list-item-inline {
+  display: inline;
+}
+
+.link-style {
+  text-decoration: none;
+  color: var(--off-white);
+}
+
+.footer .img-social {
+  width: 2rem;
+  margin: 0rem 3%;
+}
+
+.footer .footer-content {
+  display: block;
+  max-width: 500px;
+  margin: 0rem auto;
+  margin-bottom: 2rem;
+  text-align: justify;
+
+}
+
+.instruction .emoticon {
+  /* width: 4px; */
+  height: 1rem;
+}
+
+.instruction {
+  text-align: center;
+}
